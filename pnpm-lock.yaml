@@ -10,6 +10,7 @@ specifiers:
   '@rnx-kit/metro-resolver-symlinks': ^0.1.21
   babel-jest: ^26.6.3
   eslint: ^7.32.0
+  intl-pluralrules: ^1.3.1
   jest: ^26.6.3
   metro-react-native-babel-preset: ^0.67.0
   react: 17.0.2
@@ -18,6 +19,7 @@ specifiers:
 
 dependencies:
   '@react-native-community/cli-platform-ios': 7.0.1
+  intl-pluralrules: 1.3.1
   react: 17.0.2
   react-native: 0.68.0_react@17.0.2
 
@@ -3603,6 +3605,10 @@ packages:
       has: 1.0.3
       side-channel: 1.0.4
     dev: true
+
+  /intl-pluralrules/1.3.1:
+    resolution: {integrity: sha512-sNYPls1Q4fyN0EGLFVJ7TIuaMWln01LupLozfIBt69rHK0DHehghMSz6ejfnSklgRddnyQSEaQPIU6d9TCKH3w==}
+    dev: false
 
   /invariant/2.2.4:
     resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==}
